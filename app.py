@@ -417,10 +417,10 @@ class View_expense(QWidget):
                 match_found = True
 
                 text = (
-                    f"{i}. Category 🏷️ : {item["Category"].title()}"
-                    f"\nDescription 📄 : {"Blank" if item["Description"] =='' else item["Description"]}"
-                    f"\nAmount 💵 : {item["Amount"]}"
-                    f"\nDate 📅 : {item["Recording time"]}"
+                    f"{i}. Category 🏷️ : {item['Category'].title()}"
+                    f"\nDescription 📄 : {"Blank" if item['Description'] =='' else item['Description']}"
+                    f"\nAmount 💵 : {item['Amount']}"
+                    f"\nDate 📅 : {item['Recording time']}"
                     "\n"
                 )
                 self.text.appendPlainText(text)
