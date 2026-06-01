@@ -103,7 +103,7 @@ This happens because the app is not digitally signed (common for personal projec
 1. Click **More info**
 2. Click **Run anyway**
 
-✅ The app is safe if you built it yourself or downloaded it from a trusted source.
+✅ The app is safe and the data is stored locally on your machine .
 
 ---
 
